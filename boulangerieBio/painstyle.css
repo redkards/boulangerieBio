@@ -1,4 +1,4 @@
-h1 {
+.pageAccueil h1 {
   text-align: center;
   text-decoration: underline;
   margin: 50px;
@@ -8,9 +8,11 @@ h1 {
   background-color: blueviolet;
   opacity: 50%;
   border-radius: 50px;
+  text-decoration-color: blue;
+  color: chartreuse;
 }
 
-h2 {
+.pageAccueil h2 {
   text-align: center;
   margin: 50px;
   padding: 50px;
@@ -20,9 +22,10 @@ h2 {
 }
 .pageAccueil {
   color: antiquewhite;
-  min-height: 300vh;
+  min-height: 50vh;
   width: 100%;
-  background-image: url(./assets/images/painbackground.webp);
+  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0)),
+    url(./assets/images/painbackground.webp);
   background-repeat: no-repeat;
   background-size: cover;
 }
