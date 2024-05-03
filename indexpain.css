@@ -1,0 +1,32 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    border-color: black;
+    border-radius: 10px;
+    height: 100px;
+    width: 100%;
+    background-color:bisque;
+}
+
+header {
+    background-image: url(istockphoto-475263838-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Navbar{
+    text-align: center;
+    color: floralwhite;
+
+}
+
+
+
+lo {
+    font-size: 25px;
+    margin-left: 300px;
+}
+
+a{
+    color:orangered
+}
