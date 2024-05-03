@@ -1,18 +1,27 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    padding: 0;
+
+}
+
 footer {
-    position: fixed;
+    margin-top: auto;
     bottom: 0;
     border-color: black;
     border-radius: 10px;
     height: 100px;
     width: 100%;
     background-color:bisque;
+
 }
 
 header {
-    background-image: url(PLAQUE-METAL-boulangerie-pain-et-viennoiserie-30.webp);
-    background-repeat: no-repeat;
+    background: linear-gradient(rgba(255, 255, 255, 0.30), rgba(255, 255, 255, 0.30)), url(27858.jpg);
+    height: 250px;
+    width: 100%;
     background-size: cover;
-    
+    background-position: bottom;
 }
 
 .Navbar{
@@ -29,5 +38,18 @@ lo {
 }
 
 a{
-    color:orangered
+    color: white;
+    font-weight: bold;
+}
+img {
+    margin-left: 30px;
+    border-radius: 50px;
+    width: 5%;
+    height: auto;
+}
+
+h1{
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 0;
 }
