@@ -18,3 +18,55 @@ h2{
     margin-bottom: 50px;
 }
 
+body {
+    margin: 0;
+    min-height: 100vh;
+    padding: 0;
+
+}
+
+footer {
+    margin-top: auto;
+    bottom: 0;
+    border-color: black;
+    border-radius: 10px;
+    height: 100px;
+    width: 100%;
+    background-color:bisque;
+
+}
+
+header {
+    background: linear-gradient(rgba(255, 255, 255, 0.30), rgba(255, 255, 255, 0.30)), url(27858.jpg);
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.Navbar{
+    text-align: center;
+    color: floralwhite;
+
+}
+
+
+
+lo {
+    font-size: 25px;
+    margin-left: 300px;
+}
+
+
+.logo {
+    margin-left: 30px;
+    border-radius: 50px;
+    width: 5%;
+    height: auto;
+}
+
+h1{
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 0;
+}
